@@ -1,0 +1,15 @@
+html {
+    font-family: 'Raleway';
+    font-size: 60px;
+    color: #363636;
+    padding: 60px;
+    line-height: 80%;
+}
+span#logo {
+    font-family: 'Lobster';
+    font-size: 40px;
+    color: #B8B8B8;
+    display: block;
+    margin-top: 40px;
+    -webkit-text-stroke: .005em;
+}

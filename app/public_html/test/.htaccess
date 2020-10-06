@@ -1,0 +1,16 @@
+RewriteEngine On
+
+# Mostrar paginas
+RewriteRule ^cat/([^/]*)/([^/]*)/$ /cat.php?id=$1 [L]
+RewriteRule ^subcat/([^/]*)/([^/]*)/$ /subcat.php?id=$1 [L]
+RewriteRule ^prod/([^/]*)/([^/]*)/$ /prod.php?id=$1 [L]
+RewriteRule ^cart/([^/]*)$ /cart.php$1 [L]
+RewriteRule ^legal/([^/]*)$ /legal.php?texto=$1 [L]
+RewriteRule ^account/login([^/]*)$ /login.php$1 [L]
+
+# Paginas de error personalizadas
+ErrorDocument 400 /404.php
+ErrorDocument 401 /404.php
+ErrorDocument 403 /404.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /404.php
