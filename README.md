@@ -4,7 +4,7 @@ Repository for the legacy PHP application that powered www.creativekits.es.
 
 The code is an absolute mess but hey I did all of this when I were like 15 years old and had no idea about programming in general and PHP in particular so it's not that bad TBH.
 
-The only changes I've made have been dockerizing this so I could run it (back in the days this was running using XAMPP on a Windows Server EC2 in AWS), but other from that and some values (like the base_url, DB credentials, etc) nothing has changed from the original code.
+The only changes I've made have been replacing credentials and dockerizing this so I could run it (back in the days this was running using XAMPP on a Windows Server EC2 in AWS), but other from that and some values (like the base_url, DB credentials, etc) nothing has changed from the original code.
 
 Some cool things:
 
